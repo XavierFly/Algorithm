@@ -25,15 +25,6 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
-        // 测试Integer
-        Integer[] a = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-        SelectionSort.sort(a);
-        for( int i = 0 ; i < a.length ; i ++ ) {
-            System.out.print(a[i]);
-            System.out.print(' ');
-        }
-        System.out.println();
-
         // 测试Double
         Double[] b = {4.4, 3.3, 2.2, 1.1};
         SelectionSort.sort(b);
